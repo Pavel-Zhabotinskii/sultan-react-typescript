@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sultan-react-typescript/static/css/main.00f7f7a9.css",
+    "main.js": "/sultan-react-typescript/static/js/main.540cbb64.js",
+    "index.html": "/sultan-react-typescript/index.html",
+    "main.00f7f7a9.css.map": "/sultan-react-typescript/static/css/main.00f7f7a9.css.map",
+    "main.540cbb64.js.map": "/sultan-react-typescript/static/js/main.540cbb64.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00f7f7a9.css",
+    "static/js/main.540cbb64.js"
+  ]
+}
