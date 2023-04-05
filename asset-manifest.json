@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sultan-react-typescript/static/css/main.bf552550.css",
-    "main.js": "/sultan-react-typescript/static/js/main.6b6ccca0.js",
+    "main.css": "/sultan-react-typescript/static/css/main.c95d9140.css",
+    "main.js": "/sultan-react-typescript/static/js/main.2b3a67ce.js",
     "static/media/Tide.webp": "/sultan-react-typescript/static/media/Tide.7eb7ae5cfbcb6a1d1e0f.webp",
     "static/media/R.O.C.S.webp": "/sultan-react-typescript/static/media/R.O.C.S.f6661d531712e66a87b5.webp",
     "static/media/Himalaya.webp": "/sultan-react-typescript/static/media/Himalaya.62c82b8f18f92dbd7693.webp",
@@ -45,11 +45,11 @@
     "static/media/arrow.svg": "/sultan-react-typescript/static/media/arrow.35ab94e2f8817f324bd31c2293385fa8.svg",
     "static/media/arrow_down.svg": "/sultan-react-typescript/static/media/arrow_down.80566af4e2a61f1f1d7b01637e2cc31d.svg",
     "static/media/btn_back.svg": "/sultan-react-typescript/static/media/btn_back.5a3ebbf524233ddda3e33d65833a2922.svg",
-    "main.bf552550.css.map": "/sultan-react-typescript/static/css/main.bf552550.css.map",
-    "main.6b6ccca0.js.map": "/sultan-react-typescript/static/js/main.6b6ccca0.js.map"
+    "main.c95d9140.css.map": "/sultan-react-typescript/static/css/main.c95d9140.css.map",
+    "main.2b3a67ce.js.map": "/sultan-react-typescript/static/js/main.2b3a67ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf552550.css",
-    "static/js/main.6b6ccca0.js"
+    "static/css/main.c95d9140.css",
+    "static/js/main.2b3a67ce.js"
   ]
 }
