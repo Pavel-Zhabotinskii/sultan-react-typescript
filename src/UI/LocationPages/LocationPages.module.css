@@ -1,0 +1,24 @@
+.location{
+    margin-top: 45px;
+}
+
+.location a{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 120%;
+    color: #3F4E65;
+    opacity: 0.5;
+}
+.location>:first-child{
+    padding-right: 10px;
+}
+
+.location>:not(:first-child){
+    padding: 0 10px;
+    border-left: 1px dashed #3F4E65;
+}
+
+#active{
+    color: #3F4E65;
+    opacity: 1;
+}

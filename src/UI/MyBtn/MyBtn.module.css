@@ -1,0 +1,12 @@
+.MyBtn{
+    background: #FFC85E;
+    border-radius: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease; 
+}
+
+.MyBtn:hover{
+    transform: scale(1.1);
+}

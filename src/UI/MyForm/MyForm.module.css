@@ -1,0 +1,22 @@
+.MyForm{
+    position: relative;
+}
+
+.MyForm input{
+    background: #EDEDED;
+    border-radius: 36px;
+    padding: 13px 10px 13px 20px;
+}
+
+.MyForm button{
+    background: #FFC85E;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transition: all 0.3s ease;
+}
+
+.MyForm button:hover{
+    transform: scale(1.1);
+}
