@@ -45,10 +45,10 @@ const Header: FC = () => {
         <hr/>
         <div className='header__bottom_container _container'>
           <button className='header__burger_bottom'><img src={menu} alt="menu" /></button>
-          <Link to='/Admin' className='header__logo'>
+          <Link data-testid='admin-link' to='/Admin' className='header__logo'>
             <img src={Logo} alt="logo sultan" />
           </Link>
-          <Link to="/Catalog" className="header__catalog">Каталог <img src={Frame}/></Link>
+          <Link data-testid='catalog-link' to="/Catalog" className="header__catalog">Каталог <img src={Frame}/></Link>
           <MyForm classes='header__search' placeholder="Поиск..." src={search}/>
           <div className='header__contact'>
             <p>+7 (777) 490-00-91 <br />

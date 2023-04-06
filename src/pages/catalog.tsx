@@ -1,6 +1,6 @@
 import React, {FC, useState} from "react";
 import LocationPages from "../UI/LocationPages/LocationPages";
-import { getPageCount } from "../utils/pages";
+import { getPageCount } from "../utils/PageCount";
 import ItemProduct from "../components/ItemProduct";
 import ProductFilter from "../components/ProductFilter";
 import Pagination from "../UI/pagination/Pagination";
@@ -11,11 +11,6 @@ import {Link} from "react-router-dom";
 import btn_back from '../images/main/btn_back.svg'
 import arrow_down from '../images/main/arrow_down.svg'
 import { useSelector } from "react-redux";
-
-
-// interface ICatalog{
-//     brends: string[],
-// }
 
 const Catalog: FC = () => {
     const [brendCheked, setBrendCheked] = useState<string[]>([])
@@ -67,7 +62,7 @@ const Catalog: FC = () => {
     }
 
     return (
-        <main className="catalog">
+        <main className="catalog" data-testid='catalog-page'>
         <div className="catalog__container _container">
           <LocationPages id='catalog__location'>
             <Link to="/Catalog" id='catalog__location_active'>Каталог</Link>
@@ -105,7 +100,6 @@ const Catalog: FC = () => {
             <ProductFilter 
               brendCheked={brendCheked}
               setBrendCheked={(el) => setBrendCheked(el)}
-              // brends={brends}  
               inputSearchPrice={inputSearchPrice}
               setInputSearchPrice={(el) => setInputSearchPrice(el)}
               applyFiltersBrend={() => applyFiltersBrend()!}

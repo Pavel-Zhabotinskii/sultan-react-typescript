@@ -11,7 +11,7 @@ function App() {
       <Header/>
       <Routes> 
         {routes.map(route => 
-            <Route element={<route.component/>} path={route.path}/>
+            <Route key={route.path} element={<route.component/>} path={route.path}/>
           )}
       </Routes>
       <Footer />

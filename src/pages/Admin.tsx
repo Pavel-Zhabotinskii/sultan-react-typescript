@@ -149,7 +149,7 @@ const Admin: FC = () => {
     }
 
     return (
-        <main className="admin">
+        <main className="admin" data-testid='admin-page'>
             <div className="admin__container _container">
                 <LocationPages id='catalog__location'>
                     <Link to="/Catalog">Каталог</Link>

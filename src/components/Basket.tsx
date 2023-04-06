@@ -23,7 +23,7 @@ const Basket: FC<IBasket> = ({classes}) => {
 
     return(
         <div className={classes}>
-            <Link to="/Basket">
+            <Link to="/Basket"  data-testid='basket-link'>
               <img src={basket} alt="basket"/>
               <div>{quantityInBasket.length}</div>
             </Link>

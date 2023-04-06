@@ -33,7 +33,7 @@ const ItemProduct: FC<IItemProduct> = ({sortProducts}) => {
                 {sortProducts.length > 0 ?
                     sortProducts.map((product: Product) => 
                       <div key={product.id} className="products__item">
-                        <div className="product__photo" onClick={() => router(`/${product.id}`)}>
+                        <div className="product__photo"  data-testid='product-link'  onClick={() => router(`/${product.id}`)}>
                           <img src={product.url} alt="product" />
                           <div>
                             <img src={box} alt="box" />

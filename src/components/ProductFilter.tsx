@@ -12,7 +12,6 @@ import { useSelector } from "react-redux";
 interface IProductFilter {
     brendCheked: string[],
     setBrendCheked: (el: string[]) => void,
-    // brends: string[],    
     inputSearchPrice: InputSearchPrice,
     setInputSearchPrice: (el:InputSearchPrice) => void,
     applyFiltersBrend: () =>  Product[],

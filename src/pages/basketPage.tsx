@@ -34,7 +34,7 @@ const BasketPage: FC = () => {
 
     return (
         <main className="catalog">
-            <div className="basket__container _container">
+            <div className="basket__container _container" data-testid='basket-page'>
                 <div className="basket__btn_back">
                 <button><div><img src={btn_back}/></div>Назад</button>
                 </div>

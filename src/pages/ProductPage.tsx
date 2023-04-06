@@ -1,5 +1,5 @@
 import React, {FC, useState} from "react";
-import {Link} from "react-router-dom";
+import {Link, Navigate} from "react-router-dom";
 import CountAndPriceAndBasketBtn from "../components/CounterAndPriceAndBasketBtn";
 import { Product } from "../types/typeProducts";
 import LocationPages from "../UI/LocationPages/LocationPages";
@@ -12,14 +12,15 @@ import { useSelector } from "react-redux";
 
 const ProductPage: FC = () => {
     const idPropuct = +window.location.pathname.replace("/sultan-react-typescript/", "");
-
     const productsLocal = useSelector((state:any) => state.products)
     const product = productsLocal.filter((product: Product) => product.id === idPropuct)[0]
     const [stateDescriptionAndCharacteristics, setStateDescriptionAndCharacteristics] = useState({description: false, characteristics: false})
 
+    if(!product) return <Navigate  to='/catalog'/>
+
     return (
         <main className="catalog">
-            <div className="product__container _container">
+            <div className="product__container _container"  data-testid='product-page'>
                 <div className="product__btn_back">
                 <button><div><img src={btn_back}/></div>Назад</button>
                 </div>

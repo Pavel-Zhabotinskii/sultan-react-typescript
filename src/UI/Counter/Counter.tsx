@@ -17,7 +17,7 @@ const Counter: FC<ICounter> = ({id, number,clickBtn, clickBtnMinus}) => {
 
     return(
         <div className={cl.counter} id={id}>
-           <button onClick={() =>{
+           <button data-testid="btn-minus" onClick={() =>{
                 if(n!== 1){
                     clickBtnMinus()
                     setN(n - 1)
@@ -26,7 +26,7 @@ const Counter: FC<ICounter> = ({id, number,clickBtn, clickBtnMinus}) => {
                 }
             }}>-</button>
            <div>{n}</div>
-           <button  onClick={() =>{
+           <button data-testid="btn-add" onClick={() =>{
                     clickBtn();
                     setN(n + 1);
                 }}>+</button>
